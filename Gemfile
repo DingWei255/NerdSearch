@@ -17,4 +17,7 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'devise', '~> 4.5'
 
 group :development, :test do
-  gem 'bye
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+end
+
+group :devel
