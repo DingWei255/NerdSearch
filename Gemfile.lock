@@ -3,4 +3,6 @@ GEM
   specs:
     actioncable (5.2.1)
       actionpack (= 5.2.1)
-      nio4
+      nio4r (~> 2.0)
+      websocket-driver (>= 0.6.1)
+    actionmailer (5.2.1)
