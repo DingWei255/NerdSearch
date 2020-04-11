@@ -34,4 +34,6 @@ GEM
       activesupport (= 5.2.1)
       arel (>= 9.0)
     activestorage (5.2.1)
-      actionpa
+      actionpack (= 5.2.1)
+      activerecord (= 5.2.1)
+      marcel (~> 0.3.1
