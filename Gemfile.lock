@@ -92,4 +92,6 @@ GEM
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
- 
+      mini_mime (>= 0.1.1)
+    marcel (0.3.3)
+      mimemagic (~> 
