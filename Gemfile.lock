@@ -126,4 +126,6 @@ GEM
       railties (= 5.2.1)
       sprockets-rails (>= 2.0.0)
     rails-dom-testing (2.0.3)
-      activesuppo
+      activesupport (>= 4.2.0)
+      nokogiri (>= 1.6)
+    rails-html-sanitize
