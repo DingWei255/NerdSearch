@@ -121,4 +121,7 @@ GEM
       activemodel (= 5.2.1)
       activerecord (= 5.2.1)
       activestorage (= 5.2.1)
-      activesupport (=
+      activesupport (= 5.2.1)
+      bundler (>= 1.3.0)
+      railties (= 5.2.1)
+      spr
