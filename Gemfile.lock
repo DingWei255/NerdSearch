@@ -179,4 +179,6 @@ GEM
       execjs (>= 0.3.0, < 3)
     warden (1.2.7)
       rack (>= 1.0)
-    web-console (3.7.
+    web-console (3.7.0)
+      actionview (>= 5.0)
+      activemodel (>=
