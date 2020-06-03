@@ -184,4 +184,6 @@ GEM
       activemodel (>= 5.0)
       bindex (>= 0.4.0)
       railties (>= 5.0)
-    websocket-driver
+    websocket-driver (0.7.0)
+      websocket-extensions (>= 0.1.0)
+   
