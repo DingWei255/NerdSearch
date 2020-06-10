@@ -195,4 +195,7 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.1, >= 4.1.3)
   byebug
-  c
+  coffee-rails (~> 4.2)
+  devise (~> 4.5)
+  jbuilder (~> 2.5)
+  jq
