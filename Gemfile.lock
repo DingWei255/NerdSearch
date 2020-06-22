@@ -198,4 +198,6 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.5)
   jbuilder (~> 2.5)
-  jq
+  jquery-rails (~> 4.3, >= 4.3.3)
+  listen (>= 3.0.5, < 3.2)
+  pg (>= 0.18
