@@ -15,4 +15,6 @@ Things you may want to cover:
 
 * Database initialization
 
-* Ho
+* How to run the test suite
+
+* Services (job queues, cache ser
