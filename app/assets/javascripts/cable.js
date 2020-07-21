@@ -1,1 +1,2 @@
-// Action Cable p
+// Action Cable provides the framework to deal with WebSockets in Rails.
+// Yo
