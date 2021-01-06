@@ -9,4 +9,6 @@ class CryptosController < ApplicationController
     require 'net/http'
     require'json'
     @url = 'https://api.coinmarketcap.com/v1/ticker/'
-    @u
+    @uri = URI(@url)
+    @response = Net::HTTP.get(@uri)
+    @lookup_crypto = JSON.parse(@
