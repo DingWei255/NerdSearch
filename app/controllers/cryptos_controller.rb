@@ -11,4 +11,9 @@ class CryptosController < ApplicationController
     @url = 'https://api.coinmarketcap.com/v1/ticker/'
     @uri = URI(@url)
     @response = Net::HTTP.get(@uri)
-    @lookup_crypto = JSON.parse(@
+    @lookup_crypto = JSON.parse(@response)
+    @profit_loss = 0 
+  end
+
+  # GET /cryptos/1
+  # GET /crypto
