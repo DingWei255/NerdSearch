@@ -20,4 +20,5 @@ class CryptosController < ApplicationController
   def show
     @cryptos = Crypto.all
     require 'net/http'
-   
+    require'json'
+    @url = 'https://api.coinmarketcap.com
