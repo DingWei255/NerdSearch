@@ -27,4 +27,9 @@ class CryptosController < ApplicationController
     @show_crypto = JSON.parse(@response)
   end
 
-  # GET /cryptos/ne
+  # GET /cryptos/new
+  def new
+    @crypto = Crypto.new
+  end
+
+  # GET /cr
