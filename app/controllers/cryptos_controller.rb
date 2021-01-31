@@ -41,4 +41,6 @@ class CryptosController < ApplicationController
   def create
     @crypto = Crypto.new(crypto_params)
 
-    
+    respond_to do |format|
+      if @crypto.save
+        format.html { redirect_
