@@ -48,3 +48,9 @@ class CryptosController < ApplicationController
       else
         format.html { render :new }
         format.json { render json: @crypto.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  # PATCH/PUT /cryptos/1
+  # PATCH/PUT /c
