@@ -56,4 +56,5 @@ class CryptosController < ApplicationController
   # PATCH/PUT /cryptos/1.json
   def update
     respond_to do |format|
-      if
+      if @crypto.update(crypto_params)
+        format.html { redirect_to
