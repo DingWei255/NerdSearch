@@ -59,4 +59,6 @@ class CryptosController < ApplicationController
       if @crypto.update(crypto_params)
         format.html { redirect_to @crypto, notice: 'Crypto was successfully updated.' }
         format.json { render :show, status: :ok, location: @crypto }
-      els
+      else
+        format.html { render :edit }
+        format.
