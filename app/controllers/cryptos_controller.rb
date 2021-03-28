@@ -61,4 +61,10 @@ class CryptosController < ApplicationController
         format.json { render :show, status: :ok, location: @crypto }
       else
         format.html { render :edit }
-        format.json { render json: @crypto.errors, status: :unprocessable_e
+        format.json { render json: @crypto.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  # DELETE /cryptos/1
+  # DELETE /cryptos/1.js
