@@ -71,4 +71,4 @@ class CryptosController < ApplicationController
   def destroy
     @crypto.destroy
     respond_to do |format|
-    
+      format.html { redirect_to cryptos_url, notice: 'Crypto was s
