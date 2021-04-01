@@ -72,4 +72,9 @@ class CryptosController < ApplicationController
     @crypto.destroy
     respond_to do |format|
       format.html { redirect_to cryptos_url, notice: 'Crypto was successfully destroyed.' }
-      format.json { head :no_conten
+      format.json { head :no_content }
+    end
+  end
+
+  private
+    # Use callbacks to share
