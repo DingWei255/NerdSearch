@@ -89,4 +89,6 @@ class CryptosController < ApplicationController
 
     def correct_user
       @correct = current_user.cryptos.find_by(id: params[:id])
-      redirect_to crypto_path, notice: "Not A
+      redirect_to crypto_path, notice: "Not Authorized to edit this entry" if @correct.nil?
+    end
+end
