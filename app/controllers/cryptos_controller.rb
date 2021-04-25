@@ -87,4 +87,5 @@ class CryptosController < ApplicationController
       params.require(:crypto).permit(:symbol, :user_id, :cost_per, :amount_owned)
     end
 
-    d
+    def correct_user
+      @correct = current_user.cryptos.find_by(i
