@@ -1,4 +1,6 @@
 class HomeController < ApplicationController
 
   def index
-    require 'ne
+    require 'net/http'
+    require'json'
+    @url = 'https://api.coinmarketcap.com/v1/tic
