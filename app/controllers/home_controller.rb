@@ -20,3 +20,8 @@ class HomeController < ApplicationController
     @uri = URI(@url)
     @response = Net::HTTP.get(@uri)
     @lookup_coin = JSON.parse(@response)
+   
+    @symbol = params[:sym]
+
+    if @symbol
+      @symb
