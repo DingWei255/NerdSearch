@@ -16,4 +16,6 @@ class HomeController < ApplicationController
   def lookup
     require 'net/http'
     require'json'
-    @url = 'ht
+    @url = 'https://api.coinmarketcap.com/v1/ticker/'
+    @uri = URI(@url)
+    @response = 
