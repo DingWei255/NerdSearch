@@ -11,4 +11,9 @@ class HomeController < ApplicationController
   end
 
   def about
- 
+  end
+
+  def lookup
+    require 'net/http'
+    require'json'
+    @url = 'ht
