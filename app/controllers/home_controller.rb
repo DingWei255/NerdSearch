@@ -24,4 +24,8 @@ class HomeController < ApplicationController
     @symbol = params[:sym]
 
     if @symbol
-      @symb
+      @symbol = @symbol.upcase
+    end
+
+    if @symbol == ""
+      @s
