@@ -28,4 +28,9 @@ class HomeController < ApplicationController
     end
 
     if @symbol == ""
-      @s
+      @symbol = "Please enter curency!"
+    end
+  end
+
+end
+
