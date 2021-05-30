@@ -1,3 +1,4 @@
 class User < ApplicationRecord
   has_many :cryptos
-  # Inc
+  # Include default devise modules. Others available are:
+  # 
