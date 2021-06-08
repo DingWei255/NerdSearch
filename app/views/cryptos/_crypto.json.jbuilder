@@ -1,1 +1,1 @@
-json.extract! crypto
+json.extract! crypto, :id, :symbol, :user_id, :cost_per, :amount_owned, :
