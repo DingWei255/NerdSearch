@@ -21,4 +21,7 @@
 
     <tbody>
       <% @cryptos.each do |crypto| %>
-        <% if crypto.user_id 
+        <% if crypto.user_id == current_user.id %>
+
+          <% if crypto.symbol %>
+            <% cryp
