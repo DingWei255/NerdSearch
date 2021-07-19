@@ -31,4 +31,5 @@
           <% for x in @lookup_crypto %>
             <% if crypto.symbol  == x["symbol"] %><br/>
               <td><%= link_to x["name"], crypto %></td>
-              <td>$<%= x[
+              <td>$<%= x["price_usd"] %></td>
+              <td><%= x["rank"] %></td>
