@@ -38,4 +38,5 @@
               <td><%= x["percent_change_7d"] %>%</td>
               <td>$<%= x["price_usd"].to_d * crypto.amount_owned %></td>
               <td>$<%= crypto.cost_per * crypto.amount_owned  %></td>
-              <td>$<%= (x["price_usd"].to_d * crypto.amount_owned) - (
+              <td>$<%= (x["price_usd"].to_d * crypto.amount_owned) - (crypto.cost_per * crypto.amount_owned)  %></td>
+             
