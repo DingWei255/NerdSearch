@@ -1,1 +1,1 @@
-json.array! @cryptos, pa
+json.array! @cryptos, partial: 'cryptos/crypto', as: :crypto
