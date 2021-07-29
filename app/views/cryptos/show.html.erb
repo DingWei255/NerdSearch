@@ -1,4 +1,6 @@
 <div class="container crypt show" >
 
   <% for x in @show_crypto %>
-    <% if @crypto.symbol
+    <% if @crypto.symbol.upcase == x["symbol"] %>
+      <% crypto_name =  x["name"] %>
+ 
