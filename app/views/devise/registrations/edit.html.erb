@@ -6,4 +6,7 @@
 
     <div class="field">
       <%= f.label :email %><br />
-      <%= f.email_field :email, autofoc
+      <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+    </div>
+
+    <% if devise_mapping.
