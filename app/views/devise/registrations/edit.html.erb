@@ -10,4 +10,4 @@
     </div>
 
     <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
-      <div>Curren
+      <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
