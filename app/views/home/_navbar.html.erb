@@ -14,4 +14,5 @@
         <% if user_signed_in? %>
           <%= link_to "List Cryptos", cryptos_path %>
           <%= link_to "Add New", new_crypto_path %>
-          <%= link_to
+          <%= link_to "Log Out", destroy_user_session_path, method: :delete %>
+          <
