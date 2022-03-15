@@ -1,0 +1,22 @@
+
+<div class="container look">
+  <h4 class="lookup">Cyrpto Currency Look Up</h4>
+
+  <%= form_tag home_lookup_path, :method => 'POST' do %>
+    <%= text_field_tag 'sym', nil, pleaceholder: 'Enter Crypto Symbol', size: 50 %>
+    <%= submit_tag 'Lookup Stock Quote', class: "btn btn-success" %>
+  <% end %>
+
+  <%= @symbol %>
+
+  <% if @symbol %>
+    <% for x in @lookup_coin %>
+      <% if @symbol== x["symbol"] %><br/>
+        <%= x["name"] %>: $<%=x["price_usd"] %><br>
+        Rank: <%= x["rank"] %> <br/>
+        Change Last 24h: <%= x["percent_change_24h"] %>%
+      <% end %>
+    <% end %>
+  <% end %>
+
+</div>
