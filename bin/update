@@ -3,4 +3,7 @@ require 'fileutils'
 include FileUtils
 
 # path to your application root.
-APP_RO
+APP_ROOT = File.expand_path('..', __dir__)
+
+def system!(*args)
+  sys
