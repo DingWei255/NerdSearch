@@ -27,3 +27,5 @@ chdir APP_ROOT do
   system! 'bin/rails log:clear tmp:clear'
 
   puts "\n== Restarting application server =="
+  system! 'bin/rails restart'
+end
