@@ -1,2 +1,4 @@
 #!/usr/bin/env ruby
-APP_
+APP_ROOT = File.expand_path('..', __dir__)
+Dir.chdir(APP_ROOT) do
+  
