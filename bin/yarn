@@ -4,4 +4,4 @@ Dir.chdir(APP_ROOT) do
   begin
     exec "yarnpkg", *ARGV
   rescue Errno::ENOENT
-    $std
+    $stderr.puts "Yarn executable was not detected in the system."
