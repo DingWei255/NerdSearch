@@ -6,4 +6,6 @@ Dir.chdir(APP_ROOT) do
   rescue Errno::ENOENT
     $stderr.puts "Yarn executable was not detected in the system."
     $stderr.puts "Download Yarn at https://yarnpkg.com/en/docs/install"
-   
+    exit 1
+  end
+end
