@@ -19,4 +19,4 @@ Bundler.require(*Rails.groups)
 
 module CryptoPort
   class Application < Rails::Application
-    # Initialize configur
+    # Initialize configuration defaults for originally generated Rails version.
