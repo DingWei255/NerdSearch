@@ -44,4 +44,5 @@ Rails.application.configure do
   # Highlight code that triggered database queries in logs.
   config.active_record.verbose_query_logs = true
 
-  # Debug mode disables concatenation and preprocessing 
+  # Debug mode disables concatenation and preprocessing of assets.
+  # This option may cause significant delays in view rend
