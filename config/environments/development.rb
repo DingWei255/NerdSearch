@@ -53,4 +53,6 @@ Rails.application.configure do
   config.assets.quiet = true
 
   # Raises error for missing translations
-  # config.action_view.raise_on_missing_t
+  # config.action_view.raise_on_missing_translations = true
+
+  # Use an evented file watcher to a
