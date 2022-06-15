@@ -5,4 +5,5 @@ Rails.application.configure do
   config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
-  # your application
+  # your application in memory, allowing both threaded web servers
+  # and 
