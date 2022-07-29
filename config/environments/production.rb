@@ -65,4 +65,5 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
-  # Ignore bad email addresses and do not rais
+  # Ignore bad email addresses and do not raise email delivery errors.
+  # Set this to true and configure the e
