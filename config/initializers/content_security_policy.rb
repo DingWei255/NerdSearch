@@ -1,3 +1,4 @@
 # Be sure to restart your server when you modify this file.
 
-# Define an ap
+# Define an application-wide content security policy
+# For further informat
