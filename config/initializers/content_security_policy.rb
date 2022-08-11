@@ -4,4 +4,5 @@
 # For further information see the following documentation
 # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
 
-# Rails.appli
+# Rails.application.config.content_security_policy do |policy|
+#   policy.d
