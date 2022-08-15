@@ -10,4 +10,6 @@
 #   policy.img_src     :self, :https, :data
 #   policy.object_src  :none
 #   policy.script_src  :self, :https
-#   polic
+#   policy.style_src   :self, :https
+
+#   # Specify URI for viola
