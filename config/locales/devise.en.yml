@@ -2,3 +2,5 @@
 
 en:
   devise:
+    confirmations:
+      confirmed: "Your email address has been su
