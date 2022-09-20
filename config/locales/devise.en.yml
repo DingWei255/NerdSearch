@@ -20,4 +20,5 @@ en:
       confirmation_instructions:
         subject: "Confirmation instructions"
       reset_password_instructions:
-        subject: "Re
+        subject: "Reset password instructions"
+      unlock_instructions
