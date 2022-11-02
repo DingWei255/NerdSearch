@@ -11,4 +11,6 @@ threads threads_count, threads_count
 #
 port        ENV.fetch("PORT") { 3000 }
 
-# Specifies the `environment` th
+# Specifies the `environment` that Puma will run in.
+#
+environment ENV.fetch("RAILS_ENV") { "devel
