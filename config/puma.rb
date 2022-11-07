@@ -21,4 +21,6 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 # Workers do not work on JRuby or Windows (both of which do not support
 # processes).
 #
-# workers ENV.fetch("WEB
+# workers ENV.fetch("WEB_CONCURRENCY") { 2 }
+
+# Use the `preload_app!` method whe
