@@ -6,4 +6,8 @@ Rails.application.routes.draw do
 
   get 'home/lookup'
 
-  post "/
+  post "/home/lookup" => 'home/lookup'
+  
+  root 'home#index'
+  
+end
