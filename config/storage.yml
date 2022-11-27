@@ -18,3 +18,4 @@ local:
 # google:
 #   service: GCS
 #   project: your_project
+#   credentials: <%= Rails.root.join("path/to/gcs.keyfile") %
