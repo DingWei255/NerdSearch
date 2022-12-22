@@ -12,4 +12,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
       t.datetime :reset_password_sent_at
 
       ## Rememberable
-      t.dateti
+      t.datetime :remember_created_at
+
+      ## Trackable
+      # t.integer
