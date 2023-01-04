@@ -3,4 +3,4 @@
 # incrementally modify your database, and then regenerate this schema definition.
 #
 # Note that this schema.rb definition is the authoritative source for your
-# d
+# database schema. If you need to create the application database on anot
