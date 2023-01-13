@@ -12,4 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2018_11_08_004122) do
 
-  # These are extensions that must be enabled in order to sup
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  cre
