@@ -10,4 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_08_0041
+ActiveRecord::Schema.define(version: 2018_11_08_004122) do
+
+  # These are extensions that must be enabled in order to sup
