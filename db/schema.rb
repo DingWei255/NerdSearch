@@ -19,4 +19,6 @@ ActiveRecord::Schema.define(version: 2018_11_08_004122) do
     t.string "symbol"
     t.integer "user_id"
     t.decimal "cost_per"
-    t.decimal "amount_own
+    t.decimal "amount_owned"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", 
