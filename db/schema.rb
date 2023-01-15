@@ -21,4 +21,8 @@ ActiveRecord::Schema.define(version: 2018_11_08_004122) do
     t.decimal "cost_per"
     t.decimal "amount_owned"
     t.datetime "created_at", null: false
-    t.datetime "updated_at", 
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_cryptos_on_user_id"
+  end
+
+ 
