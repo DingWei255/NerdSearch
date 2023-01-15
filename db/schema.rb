@@ -16,4 +16,7 @@ ActiveRecord::Schema.define(version: 2018_11_08_004122) do
   enable_extension "plpgsql"
 
   create_table "cryptos", force: :cascade do |t|
-    t.string "sym
+    t.string "symbol"
+    t.integer "user_id"
+    t.decimal "cost_per"
+    t.decimal "amount_own
