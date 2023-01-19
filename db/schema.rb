@@ -26,4 +26,5 @@ ActiveRecord::Schema.define(version: 2018_11_08_004122) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string "e
+    t.string "email", default: "", null: false
+    t.string "encrypted_p
