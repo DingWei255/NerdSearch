@@ -30,4 +30,6 @@ ActiveRecord::Schema.define(version: 2018_11_08_004122) do
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
-    t.datetime "reme
+    t.datetime "remember_created_at"
+    t.datetime "created_at", null: false
+    t.datetime "up
