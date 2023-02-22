@@ -3,4 +3,4 @@
 #
 # Examples:
 #
-#   movie
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of th
