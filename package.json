@@ -1,4 +1,5 @@
 {
   "name": "CryptoPort",
   "private": true,
-  "dep
+  "dependencies": {}
+}
